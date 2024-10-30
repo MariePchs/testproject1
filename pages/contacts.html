@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="background">
+
+    <div class="navigation">
+      <nav>
+        <ul>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="page-nav.html">Navigation</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="../index.html">Main page</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <h1>Contacts</h1>
+
+    <div class="container">
+      <h2>Our location:</h2>
+      <p class="locationtext">
+        Berlin
+        Unter den Linden 18, 10117
+      </p>
+
+      <h2>How to find us:</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.8875893900918!2d13.386694776832911!3d52.51737337206053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c4ab80cb67%3A0xac6209cf0f4f927e!2zVW50ZXIgZGVuIExpbmRlbiAxOCwgMTAxMTcgQmVybGluLCDQk9C10YDQvNCw0L3QuNGP!5e0!3m2!1sru!2sbe!4v1729092823143!5m2!1sru!2sbe"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset>
+        <legend>For additional information fill in the form below:</legend>
+        <div>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname">
+        </div>
+        <div>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email">
+        </div>
+        <div>
+          <label for="phonenumber">Contact number</label>
+          <input type="number" name="phonenumber" id="phonenumber">
+        </div>
+        <div class="freetext">
+          <label for="request">Explain your request below</label><br>
+          <textarea placeholder="I am inquiring about..." id="request" name="request" cols="16" rows="8"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Buttons</legend>
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      &copy; Maria Peschanska
+    </footer>
+
+  </div>
+</body>
+
+</html>
