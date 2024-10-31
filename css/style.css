@@ -38,8 +38,6 @@ body::after {
   background-color: #58c7ff33;
   max-width: fit-content;
   margin: auto;
-  width: 50%;
-  float: unset;
 }
 
 .navigation ul {
@@ -250,16 +248,15 @@ button:hover {
 .containergallery {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   gap: 20px;
   width: min(100% - 50px, 900px);
 }
 
 .figureimage {
-  max-width: 50%;
+  max-width: auto;
   max-height: auto;
 }
-
 
 .backgroundgallery {
   background-image: url(styleimages/pattern.jpg);
