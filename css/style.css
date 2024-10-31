@@ -88,6 +88,7 @@ footer {
   text-align: left;
   background-color: #eaeaea25;
   border-radius: 10px;
+  align-items: center;
 }
 
 .container a {
@@ -245,6 +246,20 @@ button:hover {
   align-items: center;
   color: #3d3046;
 }
+
+.containergallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  width: min(100% - 50px, 900px);
+}
+
+.figureimage {
+  max-width: 50%;
+  max-height: auto;
+}
+
 
 .backgroundgallery {
   background-image: url(styleimages/pattern.jpg);
