@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   height: 100%;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .background {
@@ -62,7 +63,6 @@ footer {
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-
   bottom: 0;
   width: 100vw;
   text-align: center;
